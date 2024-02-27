@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: tetris
-        image: shaikmustafa/cycle
+        image: rbu9032/k8s-mygame:mygame-image
         ports:
         - containerPort: 3000   # Use port 3000
 
